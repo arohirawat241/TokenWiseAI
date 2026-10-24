@@ -17,7 +17,7 @@ Modern LLM applications suffer from bloated prompts, leading to:
 Existing solutions blindly truncate text or summarize everything. They do not make optimization decisions based on available token budgets, structural risk, or expected quality impact, often breaking strict output formats (like JSON) or dropping critical constraints.
 
 ## 🎯 The Solution
-OptiPrompt acts as a smart triage system. Instead of blindly applying an LLM to every request, it uses a **Signal-Based Policy Router** to calculate budget pressure, estimated savings, and constraint risk, routing each prompt to the most efficient optimization path.
+TokenWiseAI acts as a smart triage system. Instead of blindly applying an LLM to every request, it uses a **Signal-Based Policy Router** to calculate budget pressure, estimated savings, and constraint risk, routing each prompt to the most efficient optimization path.
 
 **Key Results:**
 - Achieved **40–60% token compression** on verbose, complex prompts.
